@@ -3,3 +3,14 @@ git config --global user.email "email@example.com"          git config --global 
 
 创建版本库
 git init
+
+
+创建SSH KEY   公钥和私钥
+ssh-keygen -t rsa -C "youremail@example.com"
+
+关联自己github
+git remote add origin git@github.com:cillianstarry/learngit.git
+
+把本地库完全推送到远程库
+git push -u origin master
+
