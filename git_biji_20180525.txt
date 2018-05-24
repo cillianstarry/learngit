@@ -1,0 +1,5 @@
+git config --global user.name "Your Name"                   git config --global user.name "chchen"
+git config --global user.email "email@example.com"          git config --global user.email "chchen822@163.com"
+
+创建版本库
+git init
