@@ -14,3 +14,19 @@ git remote add origin git@github.com:cillianstarry/learngit.git
 把本地库完全推送到远程库
 git push -u origin master
 
+克隆远程库
+git clone git@github.com:cillianstarry/learngit.git
+
+--add by hang 20180527
+git add 文件名           从工作区提交到暂存区
+git commit -m "备注"   从暂存区提交到Master分支
+
+查看工作区和版本库差异
+git diff HEAD -- 文件名
+
+git checkout --   撤销工作区修改  用版本库的内容替换工作区的内容
+git reset HEAD    撤销暂存区修改  git commit的逆转
+
+
+
+
